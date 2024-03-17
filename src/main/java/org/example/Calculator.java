@@ -12,10 +12,11 @@ public class Calculator {
      *
      * @param expression - исходное выражение
      */
-    public void calculate(String expression){
+    public int calculate(String expression){
         List<Token> tokens = lexer.getTokens(expression);
         List<Token> postfixExpression = converter.convertToPostfix(tokens);
         int result = stackMachine.evaluate(postfixExpression);
         System.out.println(result);
+        return result;
     }
 }
