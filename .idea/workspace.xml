@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47794d7f-b461-4a9b-ae9b-288c396c8063" name="Changes" comment="Добавление тестов">
+    <list default="true" id="47794d7f-b461-4a9b-ae9b-288c396c8063" name="Changes" comment="Поддержка переменных">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinaryOperationToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinaryOperationToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NumberToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NumberToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ParenthesesToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ParenthesesToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PostfixConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PostfixConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StackMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StackMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BinaryOperationTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BinaryOperationTokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LexerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LexerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/NumberTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/NumberTokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ParenthesesTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ParenthesesTokenTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +69,7 @@
     "JUnit.LexerTest.testMethodThrowsException.executor": "Run",
     "JUnit.NumberTokenTest.testType.executor": "Run",
     "JUnit.ParenthesesTokenTest.testType.executor": "Run",
+    "JUnit.ParenthesesTokenTest.testType2.executor": "Run",
     "JUnit.StackMachineTest.testEvaluate.executor": "Run",
     "JUnit.StackMachineTest.testMethodThrowsException.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -78,7 +92,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.ParenthesesTokenTest.testType2">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="calculator" />
@@ -123,22 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberTokenTest.testType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.NumberTokenTest" />
-      <option name="METHOD_NAME" value="testType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ParenthesesTokenTest.testType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
@@ -155,13 +153,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParenthesesTokenTest.testType2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ParenthesesTokenTest" />
+      <option name="METHOD_NAME" value="testType2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParenthesesTokenTest.testType2" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.LexerTest" />
         <item itemvalue="JUnit.LexerTest.testGetTokens" />
         <item itemvalue="JUnit.ParenthesesTokenTest.testType" />
-        <item itemvalue="JUnit.NumberTokenTest.testType" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710687063199</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Поддержка переменных">
+      <option name="closed" value="true" />
+      <created>1710691738043</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710691738043</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -290,6 +312,7 @@
     <MESSAGE value="Вычисление выражения.&#10;&#10;Создание экземпляра класса и проверка на правильность вычислений" />
     <MESSAGE value="Избавление от предупреждений" />
     <MESSAGE value="Добавление тестов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление тестов" />
+    <MESSAGE value="Поддержка переменных" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поддержка переменных" />
   </component>
 </project>

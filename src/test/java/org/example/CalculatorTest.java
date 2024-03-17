@@ -6,6 +6,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
 
+    /**
+     * Тест метода вычисления значения выражения
+     */
     @Test
     public void testCalculate() {
         Calculator calculator = new Calculator();
@@ -14,6 +17,10 @@ class CalculatorTest {
     }
 
 
+    /**
+     * Тест метода вычисления значения выражения
+     * Проверка на обработку исключения "Деление на ноль"
+     */
     @Test
     public void testMethodThrowsException() {
         boolean exceptionThrown = false;

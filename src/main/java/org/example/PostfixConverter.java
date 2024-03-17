@@ -4,6 +4,10 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
+
+/**
+ * Класс, формурующий выражение, которое можно вычислить за один проход
+ */
 public class PostfixConverter {
     /**
      * Метод, реализующий алгоритм сортировочной станции.

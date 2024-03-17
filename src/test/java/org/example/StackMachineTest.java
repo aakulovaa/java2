@@ -8,6 +8,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class StackMachineTest {
 
+    /**
+     * Тест метода вычисления на стековой машине
+     */
     @Test
     void testEvaluate() {
         Lexer lexer = new Lexer();
@@ -19,6 +22,10 @@ class StackMachineTest {
         assertEquals(1,result);
     }
 
+    /**
+     * Тест метода вычисления на стековой машине
+     * Проверка на обработку исключения "Деление на ноль"
+     */
     @Test
     public void testMethodThrowsException() {
         boolean exceptionThrown = false;

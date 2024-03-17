@@ -3,6 +3,9 @@ package org.example;
 import org.example.Token;
 import org.example.TokenType;
 
+/**
+ * Класс для токена "Число" со свойством <b>value</b>
+ */
 public class NumberToken implements Token {
     public final int value;
 

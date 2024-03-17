@@ -8,6 +8,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 class LexerTest {
+    /**
+     * Тест метода разбиения строки на отдельные лексемы
+     * Проверка на обработку исключения "Unexpected token"
+     */
     @Test
     public void testMethodThrowsException() {
         boolean exceptionThrown = false;

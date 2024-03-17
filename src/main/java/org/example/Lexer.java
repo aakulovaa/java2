@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
+/**
+ * Класс Lexer для лексического анализа
+ */
 public class Lexer {
     private final static String DELIMITERS = " +-*/()";
     Scanner scanner = new Scanner(System.in);

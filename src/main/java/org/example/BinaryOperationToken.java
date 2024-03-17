@@ -4,6 +4,9 @@ import org.example.OperationType;
 import org.example.Token;
 import org.example.TokenType;
 
+/**
+ * Класс для токена "Бинарная операция" со свойством <b>operationType</b>
+ */
 public class BinaryOperationToken implements Token {
     private final OperationType operationType;
 

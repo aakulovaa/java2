@@ -2,6 +2,9 @@ package org.example;
 
 import java.util.List;
 
+/**
+ * Класс Калькулятор для вычисления выражения
+ */
 public class Calculator {
     private final Lexer lexer = new Lexer();
     private final PostfixConverter converter = new PostfixConverter();

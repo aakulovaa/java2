@@ -4,6 +4,9 @@ import java.util.List;
 import java.util.Deque;
 import java.util.LinkedList;
 
+/**
+ * Класс, вычисляющий выражение
+ */
 public class StackMachine {
     /**
      * Метод вычисления на стековой машине.

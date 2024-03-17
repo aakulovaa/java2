@@ -1,6 +1,9 @@
 package org.example;
 import java.util.Scanner;
 
+/**
+ * https://github.com/aakulovaa/calculator
+ */
 public class App
 {
     public static void main( String[] args )
