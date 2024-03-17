@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47794d7f-b461-4a9b-ae9b-288c396c8063" name="Changes" comment="Вычисление выражения.&#10;&#10;Создание экземпляра класса и проверка на правильность вычислений">
+    <list default="true" id="47794d7f-b461-4a9b-ae9b-288c396c8063" name="Changes" comment="Добавление тестов">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LexerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
     "JUnit.CalculatorTest.calculate.executor": "Run",
     "JUnit.CalculatorTest.testCalculate.executor": "Run",
     "JUnit.CalculatorTest.testMethodThrowsException.executor": "Run",
+    "JUnit.LexerTest.testMethodThrowsException.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -70,7 +71,20 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.testMethodThrowsException">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest.calculate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
@@ -119,8 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LexerTest.testMethodThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LexerTest" />
+      <option name="METHOD_NAME" value="testMethodThrowsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LexerTest.testMethodThrowsException" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.CalculatorTest.testMethodThrowsException" />
         <item itemvalue="JUnit.CalculatorTest.testCalculate" />
         <item itemvalue="JUnit.CalculatorTest.calculate" />
@@ -199,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710677981894</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Добавление тестов">
+      <option name="closed" value="true" />
+      <created>1710680026204</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680026204</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -210,6 +250,7 @@
     <MESSAGE value="Вычисление на стековой машине. &#10;&#10;Создание класса, вычисляющего выражение" />
     <MESSAGE value="Вычисление выражения.&#10;&#10;Весь алгоритм реализации собирается в один класс" />
     <MESSAGE value="Вычисление выражения.&#10;&#10;Создание экземпляра класса и проверка на правильность вычислений" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вычисление выражения.&#10;&#10;Создание экземпляра класса и проверка на правильность вычислений" />
+    <MESSAGE value="Добавление тестов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление тестов" />
   </component>
 </project>
