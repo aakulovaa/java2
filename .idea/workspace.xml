@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47794d7f-b461-4a9b-ae9b-288c396c8063" name="Changes" comment="Поддержка переменных">
+    <list default="true" id="47794d7f-b461-4a9b-ae9b-288c396c8063" name="Changes" comment="Добавление javadoc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinaryOperationToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinaryOperationToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NumberToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NumberToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ParenthesesToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ParenthesesToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PostfixConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PostfixConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StackMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StackMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BinaryOperationTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BinaryOperationTokenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LexerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LexerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/NumberTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/NumberTokenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ParenthesesTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ParenthesesTokenTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710691738043</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Добавление javadoc">
+      <option name="closed" value="true" />
+      <created>1710697923201</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710697923201</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -313,6 +308,7 @@
     <MESSAGE value="Избавление от предупреждений" />
     <MESSAGE value="Добавление тестов" />
     <MESSAGE value="Поддержка переменных" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поддержка переменных" />
+    <MESSAGE value="Добавление javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление javadoc" />
   </component>
 </project>

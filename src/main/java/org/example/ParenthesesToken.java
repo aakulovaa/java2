@@ -1,7 +1,5 @@
 package org.example;
 
-import org.example.Token;
-import org.example.TokenType;
 /**
  * Класс для токена "Круглая скобка" со свойством <b>type</b>
  */
