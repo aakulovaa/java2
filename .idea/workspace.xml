@@ -4,13 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47794d7f-b461-4a9b-ae9b-288c396c8063" name="Changes" comment="" />
+    <list default="true" id="47794d7f-b461-4a9b-ae9b-288c396c8063" name="Changes" comment="Вычисление выражения.&#10;&#10;Весь алгоритм реализации собирается в один класс">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -24,13 +40,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "second",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -47,6 +70,64 @@
       <option name="presentableId" value="Default" />
       <updated>1710665222808</updated>
     </task>
+    <task id="LOCAL-00001" summary="Разбор на токены&#10;&#10;Создание интерфейса для определения типа токенов и перечисления, включающего типы токенов">
+      <option name="closed" value="true" />
+      <created>1710665872005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710665872005</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Разбор на токены&#10;&#10;Создание классов для обозначенных видов токенов">
+      <option name="closed" value="true" />
+      <created>1710666805410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710666805410</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Lexer&#10;&#10;Создание класса для лексического анализа">
+      <option name="closed" value="true" />
+      <created>1710669735652</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710669735652</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Алгоритм сортировочной станции.&#10;&#10;Создание класса, формурующего выражение, которое можно вычислить за один проход">
+      <option name="closed" value="true" />
+      <created>1710675661814</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710675661814</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Вычисление на стековой машине. &#10;&#10;Создание класса, вычисляющего выражение">
+      <option name="closed" value="true" />
+      <created>1710676665440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710676665440</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Вычисление выражения.&#10;&#10;Весь алгоритм реализации собирается в один класс">
+      <option name="closed" value="true" />
+      <created>1710677570585</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677570585</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Разбор на токены&#10;&#10;Создание интерфейса для определения типа токенов и перечисления, включающего типы токенов" />
+    <MESSAGE value="Разбор на токены&#10;&#10;Создание классов для обозначенных видов токенов" />
+    <MESSAGE value="Lexer&#10;&#10;Создание класса для лексического анализа" />
+    <MESSAGE value="Алгоритм сортировочной станции.&#10;&#10;Создание класса, формурующего выражение, которое можно вычислить за один проход" />
+    <MESSAGE value="Вычисление на стековой машине. &#10;&#10;Создание класса, вычисляющего выражение" />
+    <MESSAGE value="Вычисление выражения.&#10;&#10;Весь алгоритм реализации собирается в один класс" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вычисление выражения.&#10;&#10;Весь алгоритм реализации собирается в один класс" />
   </component>
 </project>
