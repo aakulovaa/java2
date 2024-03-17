@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47794d7f-b461-4a9b-ae9b-288c396c8063" name="Changes" comment="Избавление от предупреждений">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LexerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LexerTest.java" afterDir="false" />
+    <list default="true" id="47794d7f-b461-4a9b-ae9b-288c396c8063" name="Changes" comment="Добавление тестов">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lexer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +78,9 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LexerTest">
-    <configuration name="BinaryOperationTokenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="calculator" />
       <extension name="coverage">
         <pattern>
@@ -88,9 +88,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.BinaryOperationTokenTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.LexerTest" />
         <item itemvalue="JUnit.LexerTest.testGetTokens" />
         <item itemvalue="JUnit.ParenthesesTokenTest.testType" />
         <item itemvalue="JUnit.NumberTokenTest.testType" />
-        <item itemvalue="JUnit.BinaryOperationTokenTest" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710685439981</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Добавление тестов">
+      <option name="closed" value="true" />
+      <created>1710687063199</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710687063199</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -283,8 +288,8 @@
     <MESSAGE value="Вычисление на стековой машине. &#10;&#10;Создание класса, вычисляющего выражение" />
     <MESSAGE value="Вычисление выражения.&#10;&#10;Весь алгоритм реализации собирается в один класс" />
     <MESSAGE value="Вычисление выражения.&#10;&#10;Создание экземпляра класса и проверка на правильность вычислений" />
-    <MESSAGE value="Добавление тестов" />
     <MESSAGE value="Избавление от предупреждений" />
-    <option name="LAST_COMMIT_MESSAGE" value="Избавление от предупреждений" />
+    <MESSAGE value="Добавление тестов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление тестов" />
   </component>
 </project>

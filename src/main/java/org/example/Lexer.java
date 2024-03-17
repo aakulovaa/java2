@@ -1,11 +1,12 @@
 package org.example;
-
+import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
 public class Lexer {
     private final static String DELIMITERS = " +-*/()";
+    Scanner scanner = new Scanner(System.in);
 
     /**
      * Метод разбиения строки на отдельные лексемы, используя определенный набор разделителей.
@@ -21,6 +22,11 @@ public class Lexer {
             {
                 continue;
             }else if (isNumber(token)){
+                tokens.add(new NumberToken(Integer.parseInt(token)));
+                continue;
+            }else if (isVariable(token)){
+                System.out.println("Введите значение переменной " + token + ":");
+                token = scanner.nextLine();
                 tokens.add(new NumberToken(Integer.parseInt(token)));
                 continue;
             }else {
@@ -51,6 +57,15 @@ public class Lexer {
     private boolean isNumber(String token){
         for (int symbol=0;symbol<token.length();symbol++){
             if (!Character.isDigit(token.charAt(symbol))){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private boolean isVariable(String token){
+        for (int symbol=0;symbol<token.length();symbol++){
+            if (!Character.isLetter(token.charAt(symbol))){
                 return false;
             }
         }
