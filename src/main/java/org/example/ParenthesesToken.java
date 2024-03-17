@@ -20,7 +20,7 @@ public class ParenthesesToken implements Token {
      */
     @Override
     public TokenType type() {
-        if (type == TokenType.OPEN_BRACKET)
+        if (type.equals(TokenType.OPEN_BRACKET))
             return TokenType.OPEN_BRACKET;
         else
             return TokenType.CLOSE_BRACKET;

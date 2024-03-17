@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47794d7f-b461-4a9b-ae9b-288c396c8063" name="Changes" comment="Добавление тестов">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LexerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StackMachineTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ParenthesesToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ParenthesesToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StackMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StackMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LexerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LexerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,10 @@
     "JUnit.CalculatorTest.calculate.executor": "Run",
     "JUnit.CalculatorTest.testCalculate.executor": "Run",
     "JUnit.CalculatorTest.testMethodThrowsException.executor": "Run",
+    "JUnit.LexerTest.executor": "Run",
+    "JUnit.LexerTest.testGetTokens.executor": "Run",
     "JUnit.LexerTest.testMethodThrowsException.executor": "Run",
+    "JUnit.StackMachineTest.testEvaluate.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -71,7 +76,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.StackMachineTest.testMethodThrowsException">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="calculator" />
@@ -85,55 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.calculate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
-      <option name="METHOD_NAME" value="calculate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.testCalculate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
-      <option name="METHOD_NAME" value="testCalculate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.testMethodThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
-      <option name="METHOD_NAME" value="testMethodThrowsException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LexerTest.testMethodThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LexerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
         <pattern>
@@ -143,6 +100,53 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.LexerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LexerTest.testGetTokens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LexerTest" />
+      <option name="METHOD_NAME" value="testGetTokens" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackMachineTest.testEvaluate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.StackMachineTest" />
+      <option name="METHOD_NAME" value="testEvaluate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackMachineTest.testMethodThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.StackMachineTest" />
       <option name="METHOD_NAME" value="testMethodThrowsException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -151,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LexerTest.testMethodThrowsException" />
+        <item itemvalue="JUnit.StackMachineTest.testMethodThrowsException" />
+        <item itemvalue="JUnit.StackMachineTest.testEvaluate" />
+        <item itemvalue="JUnit.LexerTest" />
+        <item itemvalue="JUnit.LexerTest.testGetTokens" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.CalculatorTest.testMethodThrowsException" />
-        <item itemvalue="JUnit.CalculatorTest.testCalculate" />
-        <item itemvalue="JUnit.CalculatorTest.calculate" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710680026204</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Добавление тестов">
+      <option name="closed" value="true" />
+      <created>1710683068036</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710683068036</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

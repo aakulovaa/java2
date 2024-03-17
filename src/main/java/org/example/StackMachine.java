@@ -23,7 +23,7 @@ public class StackMachine {
                     case MINUS -> left - right;
                     case MULTIPLY -> left * right;
                     case DIVIDE -> {
-                        if (right == 0){
+                        if (right.equals(0)){
                             throw new RuntimeException("Divide by zero");
                         }
                         else{
