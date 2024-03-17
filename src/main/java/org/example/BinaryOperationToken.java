@@ -1,6 +1,10 @@
 package org.example;
 
-public class BinaryOperationToken implements Token{
+import org.example.OperationType;
+import org.example.Token;
+import org.example.TokenType;
+
+public class BinaryOperationToken implements Token {
     private final OperationType operationType;
 
     /**

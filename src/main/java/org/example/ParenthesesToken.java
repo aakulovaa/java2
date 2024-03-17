@@ -1,6 +1,9 @@
 package org.example;
 
-public class ParenthesesToken implements Token{
+import org.example.Token;
+import org.example.TokenType;
+
+public class ParenthesesToken implements Token {
     private final TokenType type;
 
     /**
