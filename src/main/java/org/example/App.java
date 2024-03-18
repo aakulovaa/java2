@@ -2,7 +2,7 @@ package org.example;
 import java.util.Scanner;
 
 /**
- * <a href="https://github.com/aakulovaa/calculator">...</a>
+ * <a href="https://github.com/aakulovaa/java2.git">...</a>
  */
 public class App
 {
