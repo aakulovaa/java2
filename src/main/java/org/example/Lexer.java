@@ -1,8 +1,5 @@
 package org.example;
-import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.StringTokenizer;
+import java.util.*;
 
 /**
  * Класс Lexer для лексического анализа
