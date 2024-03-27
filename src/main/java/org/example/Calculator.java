@@ -11,9 +11,9 @@ public class Calculator {
     private final StackMachine stackMachine = new StackMachine();
 
     /**
-     * Метод вычисления заданного выражения
-     *
+     *  Метод вычисления заданного выражения
      * @param expression - исходное выражение
+     * @return - возвращает вычисленное значение
      */
     public int calculate(String expression){
         List<Token> tokens = lexer.getTokens(expression);

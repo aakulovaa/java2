@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47794d7f-b461-4a9b-ae9b-288c396c8063" name="Changes" comment="избавление от предупреждений">
+    <list default="true" id="47794d7f-b461-4a9b-ae9b-288c396c8063" name="Changes" comment="последние изменения">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LexerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LexerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,32 +43,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BinaryOperationTokenTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BinaryOperationTokenTest.getOperationType.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BinaryOperationTokenTest.type.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CalculatorTest.calculate.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CalculatorTest.testCalculate.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CalculatorTest.testMethodThrowsException.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LexerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LexerTest.testGetTokens.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LexerTest.testMethodThrowsException.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.NumberTokenTest.testType.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ParenthesesTokenTest.testType.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ParenthesesTokenTest.testType2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StackMachineTest.testEvaluate.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StackMachineTest.testMethodThrowsException.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;second&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "JUnit.BinaryOperationTokenTest.executor": "Run",
+    "JUnit.BinaryOperationTokenTest.getOperationType.executor": "Run",
+    "JUnit.BinaryOperationTokenTest.type.executor": "Run",
+    "JUnit.CalculatorTest.calculate.executor": "Run",
+    "JUnit.CalculatorTest.testCalculate.executor": "Run",
+    "JUnit.CalculatorTest.testMethodThrowsException.executor": "Run",
+    "JUnit.LexerTest.executor": "Run",
+    "JUnit.LexerTest.test.executor": "Run",
+    "JUnit.LexerTest.testGetTokens.executor": "Run",
+    "JUnit.LexerTest.testMethodThrowsException.executor": "Run",
+    "JUnit.NumberTokenTest.testType.executor": "Run",
+    "JUnit.ParenthesesTokenTest.testType.executor": "Run",
+    "JUnit.ParenthesesTokenTest.testType2.executor": "Run",
+    "JUnit.StackMachineTest.testEvaluate.executor": "Run",
+    "JUnit.StackMachineTest.testMethodThrowsException.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -80,7 +81,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.LexerTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="calculator" />
@@ -105,6 +106,22 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.LexerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LexerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LexerTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,29 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParenthesesTokenTest.testType2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ParenthesesTokenTest" />
-      <option name="METHOD_NAME" value="testType2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LexerTest" />
+        <item itemvalue="JUnit.LexerTest.test" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.LexerTest.testGetTokens" />
         <item itemvalue="JUnit.LexerTest.testMethodThrowsException" />
-        <item itemvalue="JUnit.ParenthesesTokenTest.testType2" />
-        <item itemvalue="JUnit.LexerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -313,6 +314,17 @@
     </task>
     <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Разбор на токены&#10;&#10;Создание интерфейса для определения типа токенов и перечисления, включающего типы токенов" />
